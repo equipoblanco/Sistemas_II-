@@ -4,7 +4,7 @@
 
 El presente repositorio tiene como propósito abargar todos los archivos e informaciones acerca de un subsistema empresarial, que se integra a una plataforma de videojuegos en línea existente para habilitar:
 
-- Un **Pase de Batalla** con progresión por niveles (carril gratuito y premium) y desbloqueo de activos cosméticos.
+- Un **Pase de Batalla** cosmético con progresión por niveles (carril gratuito y premium) y desbloqueo de activos cosméticos.
 - Un **Editor de Avatares 2D** modulares por capas con tintes dinámicos y validación de compatibilidad.
 - Un **Visor interactivo** con animación *idle* y exportación de imagen cuadrada 1:1 para perfil.
 - Una **Consola de Administración** (backoffice) para gestionar catálogo, reglas de compatibilidad y temporadas.
@@ -27,11 +27,7 @@ El avatar se persiste como un **documento JSON inspeccionable** con referencias 
 | 01 | [Planteamiento del problema](Informe/Planteamiento.md) | Contexto, diagnóstico y formulación |
 | 02 | [Propuesta y Objetivos](Informe/Propuesta-de-Sistema.md) | Arquitectura, módulos del producto y objetivos para el desarrollo del sistema|
 | 03 | [Alcance del MVP](docs/04-alcance-mvp.md) | MVP, fuera de alcance y criterios de aceptación |
-| 04 | [Benchmarking y arquitectura](docs/05-benchmarking-arquitectura.md) | Comparación de alternativas y motor 2D |
-| 05 | [Factibilidades](docs/06-factibilidades.md) | Técnica, operativa y de tiempo |
-| 06 | [Presupuesto](docs/07-presupuesto.md) | OPEX, honorarios y precio de venta |
-| 07 | [Riesgos](docs/08-riesgos.md) | Análisis y mitigación |
-| 08 | [Conclusiones](docs/09-conclusiones.md) | Dictamen de viabilidad |
+| 04 | [Factibilidades](Informe/Factibilidades.md) | Técnica, operativa y de tiempo.
 
 ## Estado del proyecto
 
