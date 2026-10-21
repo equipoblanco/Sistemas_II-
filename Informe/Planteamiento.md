@@ -4,7 +4,7 @@
 
 ## 1.1. Contexto y diagnóstico
 
-En la industria actual de plataformas digitales de videojuegos, la retención de usuarios y la monetización recurrente dependen del sentido de pertenencia, la identidad digital y los sistemas de progresión continua. La experiencia del sector muestra que los pases de temporada y la personalización cosmética de avatares prolongan el tiempo de permanencia del usuario y generan ingresos sostenidos sin alterar la jugabilidad ni ofrecer ventajas competitivas pagadas.
+En la industria de videojuegos, la retención de usuarios y la monetización recurrente dependen del sentido de pertenencia, la identidad digital y los sistemas de progresión continua. La experiencia del sector muestra que la relación entre los usuarios y los sistemas de recompensa y personalización prolongan el tiempo de permanencia del usuario y generan ingresos sostenidos sin necesariamente repercutir en ventajas competitivas.
 
 Sin embargo, la plataforma central del cliente opera con **perfiles planos, basados en fotografías estáticas y sin mecanismos de recompensa**, lo que reduce la frecuencia de visita, limita la expresión individual del usuario y deja sin explotar una fuente de ingresos por microtransacciones.
 
@@ -12,7 +12,7 @@ Resolver esta brecha no consiste en añadir una función aislada: se requiere **
 
 ### Diagnóstico técnico: cinco puntos críticos
 
-1. **Baja retención y ausencia de economía de progresión.** No existe un motor de recompensas por temporadas (*Pase de Batalla*) basado en niveles y puntos de experiencia (XP) que premie la recurrencia con activos cosméticos exclusivos.
+1. **Baja retención y ausencia de economía de progresión.** No existe un motor de recompensas por temporadas (*Pase de Batalla*) basado en niveles y canjeo de puntos que premie la recurrencia con activos cosméticos exclusivos.
 
 2. **Identidad visual estática y sin soporte multi-avatar.** Las fotografías fijas impiden coleccionar, construir y alternar avatares expresivos. Un sistema 2D modular con capas (*Z-Index*) y tintes dinámicos ofrece versatilidad estética sin el peso de motores 3D.
 
@@ -24,7 +24,7 @@ Resolver esta brecha no consiste en añadir una función aislada: se requiere **
 
 ## 1.2. Formulación del problema central
 
-> ¿Cómo diseñar, desarrollar y desplegar en producción un subsistema empresarial bajo arquitectura cliente-servidor (Java Spring Boot, TypeScript y PostgreSQL) que integre un **Motor de Pase de Batalla** con un **Editor de Avatares 2D Modulares por Capas** (con animación *idle* y tintes dinámicos) y un **Visor Interactivo**, garantizando validación de ranuras y compatibilidad, persistencia serializable en JSON con *fallback* administrativo, y la entrega de un MVP 100 % operativo en marzo?
+> ¿Cómo diseñar, desarrollar y desplegar en producción un subsistema empresarial bajo arquitectura cliente-servidor (Java Spring Boot, TypeScript y PostgreSQL) que integre un **Motor de Pase de Batalla** con un **Editor de Avatares 2D Modulares por Capas** y un **Visor Interactivo**, garantizando validación de ranuras y compatibilidad, persistencia serializable en JSON con *fallback* administrativo, y la entrega de un MVP 100 % operativo?
 
 ## 1.3. Sistematización del problema
 
