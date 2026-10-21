@@ -1,8 +1,8 @@
-# Propuesta de Sistema
+# 2. Propuesta de Sistema 
 
 [← Volver al índice](../README.md)
 
-## Arquitectura basada en manifiesto JSON y motor 2D modular
+## 2.1 Arquitectura basada en manifiesto JSON y motor 2D modular
 
 Se propone la construcción llave en mano de una **Plataforma Modular de Fidelización (Pase de Batalla)** e **Identidad Digital (Avatar Studio & Viewer)** bajo arquitectura RESTful desacoplada.
 
@@ -13,7 +13,7 @@ El sistema implementa un **motor gráfico 2D de capas superpuestas (*Layered Pap
 
 > **Nota sobre la animación *idle*:** para el MVP, la animación se implementa como un efecto sobre el **avatar completo** (leve escalado vertical tipo "respiración" y parpadeo en la capa de rostro), de modo que una sola animación cubre todas las capas y el costo de arte se mantiene acotado. La animación por capa individual se considera *deseable* y se documenta como trade-off en la sección de riesgos.
 
-## Módulos del producto
+## 2.2 Módulos del producto
 
 | Módulo | Valor comercial y funcionamiento técnico |
 |---|---|
@@ -25,7 +25,7 @@ El sistema implementa un **motor gráfico 2D de capas superpuestas (*Layered Pap
 | **6. Visor en acción y exportación 1:1** | Escena que carga los avatares del usuario autenticado por ID, con animación *idle* en bucle, retorno al editor y exportación de imagen cuadrada (PNG) para el perfil. |
 | **7. Consola de administración (Backoffice)** | CRUD de activos, categorías y reglas de compatibilidad; configuración de niveles y recompensas; activación/desactivación lógica de activos en caliente. |
 
-## Flujo resumido
+## 2.3 Flujo resumido
 
 1. El usuario se registra o inicia sesión → recibe JWT.
 2. Consulta el catálogo → filtra por categoría → elige piezas.
