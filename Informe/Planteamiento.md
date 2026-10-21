@@ -10,7 +10,7 @@ Sin embargo, la plataforma central del cliente opera con **perfiles planos, basa
 
 Resolver esta brecha no consiste en añadir una función aislada: se requiere **integrar a la plataforma existente un subsistema especializado, desacoplado e interoperable**, capaz de transformar perfiles planos en un ecosistema de personalización y fidelización sin comprometer la estabilidad del portal actual.
 
-### Diagnóstico técnico: cinco puntos críticos
+### Diagnóstico técnico:
 
 1. **Baja retención y ausencia de economía de progresión.** No existe un motor de recompensas por temporadas (*Pase de Batalla*) basado en niveles y canjeo de puntos que premie la recurrencia con activos cosméticos exclusivos.
 
