@@ -40,4 +40,4 @@ El avatar se persiste como un **documento JSON inspeccionable** con referencias 
 
 ## Cómo navegar este repositorio
 
-Cada documento en `docs/` es autocontenido y referencia a otros cuando aplica. La sección de **Alcance del MVP** es la fuente de verdad para decisiones de producto; la sección de **Riesgos** documenta el *alcance recortable* en caso de desviación del cronograma.
+Cada documento en `Informe` es autocontenido y referencia a otros cuando aplica. La sección de **Alcance del MVP** es la fuente de verdad para decisiones de producto; la sección de **Riesgos** documenta el *alcance recortable* en caso de desviación del cronograma.
